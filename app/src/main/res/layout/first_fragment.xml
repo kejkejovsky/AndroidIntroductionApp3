@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutCalculationForm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.63">
+        <EditText
+            android:id="@+id/edtCalculation"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:autofillHints="number"
+            android:background="@android:color/transparent"
+            android:hint="@string/calculation__hint_calculation"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:isScrollContainer="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/purple_200"
+        android:text="@string/calculation__calculation"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayoutCalculationForm"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayoutCalculationForm"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutCalculationForm" />
+</androidx.constraintlayout.widget.ConstraintLayout>

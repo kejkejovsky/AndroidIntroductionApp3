@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidIntroductionApp3</string>
+    <string name="calculation__hint_calculation">Wprowadź liczbę</string>
+    <string name="calculation__calculation">Potęguj</string>
+    <string name="calculation__no_number_provided">Wprowadź liczbę</string>
+    <string name="second__result_will_appear">Wynik obliczeń</string>
+    <string name="calculation_result__recalculate">Wyczyść</string>
+    <string name="screen_title">Kalkulator potęg</string>
+    <string name="service_start">Uruchom usługę</string>
+    <string name="service_stop">Zatrzymaj usługę</string>
+    <string name="notification_title">Tytuł</string>
+    <string name="notification_message">Treść</string>
+    <string name="send_notification">Wyślij</string>
+</resources>
